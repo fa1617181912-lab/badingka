@@ -97,8 +97,10 @@ body{
     transition: background-color 0.3s ease;
 }
 img{
-    width: 400px;
-    height: 300px;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 p{
@@ -111,4 +113,5 @@ p{
 p u{
     color: rgb(0, 0, 0);
     font-weight: bold;
+
 }
